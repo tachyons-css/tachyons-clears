@@ -13,6 +13,38 @@
   <body>
     <h1>tachyons clears</h1>
     <h2>Examples</h2>
+
+.cn { clear: none; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+    <pre>
+<code>
+/*
+
+   CLEARS
+
+*/
+
+.cn { clear: none; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-clears" title="tachyons-clears">View package on npm</a>
   </body>
 </html>

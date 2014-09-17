@@ -8,6 +8,29 @@ npm install --save-dev tachyons-clears
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   CLEARS
+
+*/
+
+.cn { clear: none; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)

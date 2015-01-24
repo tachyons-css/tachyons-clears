@@ -1,12 +1,12 @@
 {
   "name": "tachyons-clears",
   "version": "0.3.0",
-  "style": "clears.css",
+  "style": "tachyons-clears.css",
   "homepage": "http://mrmrs.io/tachyons-clears",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",

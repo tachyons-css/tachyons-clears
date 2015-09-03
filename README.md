@@ -1,28 +1,26 @@
-# TACHYONS-CLEARS
+# tachyons-clears
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-clears
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-clears
+```
 
 ## The Code
 ```
-
 /*
 
-   CLEARS
+   CLEARFIX
 
 */
-
-.cn { clear: none; }
-.cl { clear: left; }
-.cr { clear: right; }
-.cb { clear: both; }
 
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -31,6 +29,8 @@ or download the css on github and include in your project.
 .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
 .cf {       *zoom: 1; }
+
+
 ```
 
 ## Author

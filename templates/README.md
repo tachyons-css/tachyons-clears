@@ -1,36 +1,22 @@
-# TACHYONS-CLEARS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-clears
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   CLEARS
-
-*/
-
-.cn { clear: none; }
-.cl { clear: left; }
-.cr { clear: right; }
-.cb { clear: both; }
-
-/* Nicolas Gallaghers Clearfix solution
-   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
-
-.cf:before,
-.cf:after { content: " "; display: table; }
-.cf:after { clear: both; }
-.cf {       *zoom: 1; }
+<%= srcCSS %>
 ```
 
 ## Author

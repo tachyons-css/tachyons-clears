@@ -1,18 +1,17 @@
 {
   "name": "tachyons-clears",
-  "version": "2.0.2",
-  "style": "tachyons-clears.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-clears",
+  "version": "2.0.3",
+  "style": "src/tachyons-clears.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-clears.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-clears/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons-css",
+    "tachyons"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-clears",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",

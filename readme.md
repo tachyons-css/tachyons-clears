@@ -1,10 +1,10 @@
-# tachyons-clears 2.0.4
+# tachyons-clears 2.1.0
 
 Performance based css module.
 
 #### Stats
 
-280 | 16 | 16
+299 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -69,20 +69,24 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .cl { clear: left; }
 .cr { clear: right; }
 .cb { clear: both; }
+.cn { clear: none; }
 @media screen and (min-width: 48em) {
  .cl-ns { clear: left; }
  .cr-ns { clear: right; }
  .cb-ns { clear: both; }
+ .cn-ns { clear: none; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .cl-m { clear: left; }
  .cr-m { clear: right; }
  .cb-m { clear: both; }
+ .cn-m { clear: none; }
 }
 @media screen and (min-width: 64em) {
  .cl-l { clear: left; }
  .cr-l { clear: right; }
  .cb-l { clear: both; }
+ .cn-l { clear: none; }
 }
 ```
 

@@ -1,4 +1,4 @@
-# tachyons-clears 2.1.0
+# tachyons-clears 2.2.1
 
 Performance based css module.
 

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-clears",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "style": "src/tachyons-clears.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -29,5 +29,10 @@
   "devDependencies": {
     "tachyons-cli": "^0.5.0",
     "watch": "^0.17.1"
+  },
+  "metadata": {
+    "category": "layout",
+    "isCore": true,
+    "nickName": "clearfix"
   }
 }

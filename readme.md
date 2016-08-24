@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-299 | 20 | 20
+298 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -88,19 +88,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .cr { clear: right; }
 .cb { clear: both; }
 .cn { clear: none; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .cl-ns { clear: left; }
  .cr-ns { clear: right; }
  .cb-ns { clear: both; }
  .cn-ns { clear: none; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .cl-m { clear: left; }
  .cr-m { clear: right; }
  .cb-m { clear: both; }
  .cn-m { clear: none; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .cl-l { clear: left; }
  .cr-l { clear: right; }
  .cb-l { clear: both; }

@@ -2,6 +2,7 @@
   "name": "tachyons-clears",
   "version": "3.0.3",
   "style": "src/tachyons-clears.css",
+  "main": "src/tachyons-clears.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons-css",
